@@ -19,6 +19,7 @@ const Peer = window.Peer;
     .getUserMedia({
       audio: true,
       video: true,
+      video: { facingMode: 'user' }, // ‰t»‘¤‚ÌƒJƒƒ‰
     })
     .catch(console.error);
 
